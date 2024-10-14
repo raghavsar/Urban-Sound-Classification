@@ -37,25 +37,25 @@ Urban-Sound-Classification/
 ├── notebooks/             # Jupyter notebooks for data exploration and training
 ├── models/                # Trained models and model architecture files
 ├── src/                   # Source code for data preprocessing, model building, and evaluation
-│   ├── preprocess.py
-│   ├── train.py
-│   └── evaluate.py
+│   └── cnnv7_yamnet.py
 ├── results/               # Generated outputs and model performance metrics
 └── README.md              # Project documentation
 ```
 
 ## Requirements
-- Python 3.x
-- TensorFlow
-- Keras
-- Librosa
-- Numpy
-- Pandas
-- Matplotlib
-- Scikit-learn
+- Python 3.11.7
+- TensorFlow 2.16.1
+- Keras 3.3.3
+- Librosa 0.10.0
+- Numpy 1.26.4
+- Pandas 2.1.4
+- Matplotlib 3.7.0
+- Scipy 1.11.4 
 
 ## Results
-The trained model achieves an accuracy of **XX%** on the test dataset. [Include confusion matrix and accuracy plot images if possible].
+The trained model achieves an accuracy of **98%** on the test dataset.
+![Confusion Matrix_Yamnet](https://github.com/user-attachments/assets/57abcce9-fca3-4ab7-8aa2-6c7bc59cdfde)
+
 
 ## Conclusion
 The Urban Sound Classification project demonstrates the effectiveness of deep learning techniques for classifying sound events in urban environments. Potential future improvements include:
